@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Sidebar Test</title>
+  <style>
+    .grid-box {
+      display: grid;
+      grid-template-columns: 220px 1fr;
+      gap: 20px;
+      padding: 20px;
+    }
+    .sidebar {
+      background-color: red;
+      color: white;
+      padding: 20px;
+      border-radius: 12px;
+    }
+    main {
+      background-color: #111;
+      color: white;
+      padding: 20px;
+      border-radius: 12px;
+    }
+  </style>
+</head>
+<body>
+  <div class="grid-box">
+    <aside class="sidebar">
+      <h2>Easy Links</h2>
+      <ul>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Education</a></li>
+      </ul>
+    </aside>
+    <main>
+      <h1>Main Content</h1>
+      <p>This is a test layout.</p>
+    </main>
+  </div>
+</body>
+</html>
+

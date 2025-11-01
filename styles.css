@@ -4,6 +4,16 @@ body {
     margin: 0;
 }
 
+header {
+    background-color: #f0f0f0;
+    padding: 10px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
 .navbar {
     display: flex;
     background-color: #f0f0f0;
@@ -187,9 +197,16 @@ h3 {
 .contact-box a:hover{
     background-color: lightblue;
 }
+
+
+footer {
+    background-color: #1a1a1a;
+    padding: 15px 0;
+    text-align: center;
+}
+
 #copyright {
     text-align: center;
     color: white;
     font-size: 16px;
 }
-
